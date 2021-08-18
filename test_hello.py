@@ -6,7 +6,8 @@ def test_marco():
     assert "Polo" == marco("Marco")
 
 def test_not_marco():
-    assert "No!" == marco("Bobo")
+    assert "No!" == marco("Bob")
+
 
 def test_not_marco_cli():
   runner = CliRunner()
